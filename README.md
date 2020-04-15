@@ -1,4 +1,4 @@
-# Aws Incident Responder
+# AWS Incident Responder
 
 ### Resources
 - [Flaws2 Defender Track](http://flaws2.cloud/defender.htm)
