@@ -6,9 +6,11 @@
 ### Python Implementation
 - https://github.com/yanzhou10x/aws-incident-responder/tree/master/src
 - To run:
-  - `pip install -r requirements.txt`
-  - `python defender.py`
-  
+  - ```bash
+    pip install -r requirements.txt
+    python defender.py
+    ```
+    
 ### Athena queries
 - How many events are there for each kind of event?
   - ```sql
