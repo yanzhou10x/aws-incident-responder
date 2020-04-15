@@ -16,7 +16,9 @@
     pip install -r requirements.txt
     python defender.py
     ```
-    
+- Result:
+  ![alt text](https://user-images.githubusercontent.com/63720821/79394151-d1a55b00-7f44-11ea-8d8a-2cbdff6f7d52.png)
+
 ### Athena queries
 - How many events are there for each kind of event?
   - ```sql
