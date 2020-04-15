@@ -3,6 +3,12 @@
 ### Resources
 - [Flaws2 Defender Track](http://flaws2.cloud/defender.htm)
 
+### Python Implementation
+- https://github.com/yanzhou10x/aws-incident-responder/tree/master/src
+- To run:
+  - `pip install -r requirements.txt`
+  - `python defender.py`
+  
 ### Athena queries
 - How many events are there for each kind of event?
   - ```sql
