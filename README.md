@@ -1,7 +1,13 @@
-# AWS Incident Responder
+# AWS Incident Detecter
 
 ### Resources
 - [Flaws2 Defender Track](http://flaws2.cloud/defender.htm)
+
+### Algorithm
+- Load cloudtrail log data into pandas.dataframe.
+- Fetch IAM roles in target account.
+- Join log data with IAM roles on ARN.
+- For each row in joined dataset, check source IP address if it's within AWS IP range. 
 
 ### Python Implementation
 - https://github.com/yanzhou10x/aws-incident-responder/tree/master/src
